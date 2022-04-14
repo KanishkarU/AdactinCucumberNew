@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.230631">
+<testcase classname="Validating the login functionality" name="verifying the login functionalty with valid username and password" time="7.230631">
+<system-out><![CDATA[Given user launches GC browser and enters adactin login page................passed
+When user enter the user name '6383184289'  and password 'Cricket@07'.......passed
+And user clicks in login button.............................................passed
+Then Validating user enters into search hotel page..........................passed
+And user print title of the search page.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

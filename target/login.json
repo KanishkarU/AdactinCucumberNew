@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5214054300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "verifying the login functionalty with valid username and password",
+        "description": "",
+        "id": "validating-the-login-functionality;verifying-the-login-functionalty-with-valid-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 290411200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterclass(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 251299,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches GC browser and enters adactin login page",
+            "match": {
+              "location": "StepDef.userLaunchesGCBrowserAndEntersAdactinLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 241557100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the user name \u00276383184289\u0027  and password \u0027Cricket@07\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00276383184289\u0027",
+                  "offset": 25
+                },
+                {
+                  "val": "\u0027Cricket@07\u0027",
+                  "offset": 52
+                }
+              ],
+              "location": "StepDef.user_enter_the_user_name_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1460233801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks in login button",
+            "match": {
+              "location": "StepDef.userClicksInLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12682100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validating user enters into search hotel page",
+            "match": {
+              "location": "StepDef.validatingUserEntersIntoSearchHotelPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8313801,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user print title of the search page",
+            "match": {
+              "location": "StepDef.userPrintTitleOfTheSearchPage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validating the login functionality",
+    "description": "",
+    "id": "validating-the-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/AdactinLogin.feature",
+    "tags": []
+  }
+]
